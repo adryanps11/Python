@@ -1,0 +1,42 @@
+# Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+
+"""
+# Criando variáveis
+num1 = int(input('Digite um número: '))
+
+# Variável começando com 1 para fazer a multiplicação
+opc = 1
+
+while (opc <= 10):
+    mult = (num1 * opc)
+    print('{} x {} = {}'.format(num1, opc, mult))
+    opc = opc + 1
+
+"""
+
+#Exemplo 2
+n = int(input('Digite um número para ver sua tabuada: '))
+
+print('-'*10)
+print('{} x {} = {}'.format(n,1,n*1))
+print('{} x {} = {}'.format(n,2,n*2))
+print('{} x {} = {}'.format(n,3,n*3))
+print('{} x {} = {}'.format(n,4,n*4))
+print('{} x {} = {}'.format(n,5,n*5))
+print('{} x {} = {}'.format(n,6,n*6))
+print('{} x {} = {}'.format(n,7,n*7))
+print('{} x {} = {}'.format(n,8,n*8))
+print('{} x {} = {}'.format(n,9,n*9))
+print('{} x {} = {}'.format(n,10,n*10))
+print('-'*10)
+
+
+
+
+
+
+
+
+
+
+
